@@ -1,4 +1,4 @@
-package arzel.jordan.journal.model;
+package journal.model;
 
 import java.util.List;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package arzel.jordan.journal.domain;
+package journal.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,7 +1,6 @@
-package arzel.jordan.journal.service;
+package journal.service;
 
-import arzel.jordan.journal.repos.EntryRepository;
-import org.junit.jupiter.api.Test;
+import journal.repos.EntryRepository;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -15,12 +14,5 @@ public class EntryServiceTest {
 
     @InjectMocks
     private EntryService entryService;
-    Class Create {
-        @Test
-        public void Should_Create {
-
-        }
-    }
-
 
 }

@@ -1,8 +1,8 @@
-package arzel.jordan.journal.config;
+package journal.config;
 
-import arzel.jordan.journal.model.ErrorResponse;
-import arzel.jordan.journal.model.FieldError;
-import arzel.jordan.journal.util.NotFoundException;
+import journal.model.ErrorResponse;
+import journal.model.FieldError;
+import journal.util.NotFoundException;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import java.util.List;
 import java.util.stream.Collectors;

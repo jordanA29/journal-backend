@@ -1,9 +1,9 @@
-package arzel.jordan.journal.service;
+package journal.service;
 
-import arzel.jordan.journal.domain.Entry;
-import arzel.jordan.journal.model.EntryDTO;
-import arzel.jordan.journal.repos.EntryRepository;
-import arzel.jordan.journal.util.NotFoundException;
+import journal.domain.Entry;
+import journal.model.EntryDTO;
+import journal.repos.EntryRepository;
+import journal.util.NotFoundException;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.springframework.data.domain.Sort;

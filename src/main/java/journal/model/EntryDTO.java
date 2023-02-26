@@ -1,4 +1,4 @@
-package arzel.jordan.journal.model;
+package journal.model;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
@@ -8,7 +8,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class TodoDTO {
+public class EntryDTO {
 
     private Long id;
 
@@ -17,9 +17,6 @@ public class TodoDTO {
     private String title;
 
     @Size(max = 255)
-    private String comment;
-
-    @NotNull
-    private Boolean done;
+    private String content;
 
 }

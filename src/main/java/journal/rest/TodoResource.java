@@ -1,10 +1,11 @@
-package arzel.jordan.journal.rest;
+package journal.rest;
 
-import arzel.jordan.journal.model.TodoDTO;
-import arzel.jordan.journal.service.TodoService;
+import journal.model.TodoDTO;
+import journal.service.TodoService;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import jakarta.validation.Valid;
 import java.util.List;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

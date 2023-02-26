@@ -1,4 +1,4 @@
-package arzel.jordan.journal;
+package journal;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

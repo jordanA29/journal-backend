@@ -1,4 +1,4 @@
-package arzel.jordan.journal.config;
+package journal.config;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.SerializationFeature;

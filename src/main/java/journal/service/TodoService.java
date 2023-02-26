@@ -1,11 +1,12 @@
-package arzel.jordan.journal.service;
+package journal.service;
 
-import arzel.jordan.journal.domain.Todo;
-import arzel.jordan.journal.model.TodoDTO;
-import arzel.jordan.journal.repos.TodoRepository;
-import arzel.jordan.journal.util.NotFoundException;
+import journal.domain.Todo;
+import journal.model.TodoDTO;
+import journal.repos.TodoRepository;
+import journal.util.NotFoundException;
 import java.util.List;
 import java.util.stream.Collectors;
+
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 

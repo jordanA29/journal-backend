@@ -1,4 +1,4 @@
-package arzel.jordan.journal.config;
+package journal.config;
 
 import java.time.OffsetDateTime;
 import java.util.Optional;

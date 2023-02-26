@@ -1,6 +1,6 @@
-package arzel.jordan.journal.repos;
+package journal.repos;
 
-import arzel.jordan.journal.domain.Todo;
+import journal.domain.Todo;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

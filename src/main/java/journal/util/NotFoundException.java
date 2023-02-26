@@ -1,4 +1,4 @@
-package arzel.jordan.journal.util;
+package journal.util;
 
 
 public class NotFoundException extends RuntimeException {
