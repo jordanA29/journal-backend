@@ -12,8 +12,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 
 @Configuration
-@EntityScan("io.bootify.journal.domain")
-@EnableJpaRepositories("io.bootify.journal.repos")
+@EntityScan("journal.domain")
+@EnableJpaRepositories("journal.repos")
 @EnableTransactionManagement
 @EnableJpaAuditing(dateTimeProviderRef = "auditingDateTimeProvider")
 public class DomainConfig {

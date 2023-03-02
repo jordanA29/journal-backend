@@ -46,6 +46,8 @@ public class EntryService {
     }
 
     public void delete(final Long id) {
+        entryRepository.findById(id)
+                .orElseThrow(() -> new NotFoundException());
         entryRepository.deleteById(id);
     }
 
