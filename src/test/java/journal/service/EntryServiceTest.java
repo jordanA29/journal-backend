@@ -73,7 +73,6 @@ public class EntryServiceTest {
         assertEquals(entry2.getContent(), entryDTOs.get(1).getContent());
     }
 
-    //    Test that when the repository contains an entry with the given ID, the service returns the corresponding EntryDTO object.
     @Test
     void get_WithValidId_ReturnEntry() {
         final Entry entry = entryBuilder
@@ -140,8 +139,6 @@ public class EntryServiceTest {
 
     }
 
-//    Test that when the repository does not contain an entry with the given ID, the service throws a NotFoundException.
-//    Test that the repository's save method is called with the correct Entry object.
     // update
     @Test
     void update_WithValidIdAndEntryDTO_UpdatesEntry() {

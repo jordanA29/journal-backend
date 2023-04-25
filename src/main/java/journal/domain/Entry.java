@@ -43,7 +43,7 @@ public class Entry {
     @Column
     private String content;
 
-    @Column(nullable = false)
+    @Column(nullable = false, unique = true)
     private LocalDate date;
 
     @CreatedDate
